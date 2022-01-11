@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.main {
+  background: #56565b;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  min-height: 90%;
+  width: 100%;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.container {
+  background: #3c3c42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: fit-content;
+  width: 400px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  height: 30px;
+  border: 2px solid #e1dede69;
+  border-radius: 5px;
+  background: #777272;
+  color: black;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+label {
+  align-self: flex-start;
+}
+h2 {
+  font-size: 35px;
+}
+
+.form-item {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.form-item-mobile {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.form-item input {
+  margin: 5px;
+  width: 100%;
+}
+.form-item-country select {
+  width: 90%;
+  min-width: 90px;
+  height: 35px;
+  border: 2px solid #e1dede69;
+  border-radius: 5px;
+  background: #777272;
+  color: black;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  align-self: flex-start;
+}
+
+.form-item-number input {
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.form-btns {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.form-btns button {
+  margin: auto;
+  font-size: 20px;
+  padding: 8px;
+  width: 280px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(75, 61, 61);
+  background: #fbba50;
+}
+
+.form-btns button:disabled {
+  cursor: not-allowed;
+  background: #8f8b85 !important;
+  color: rgb(131, 120, 120) !important;
+}
+
+.form-btns button:hover {
+  background: #d88a0c;
+  color: antiquewhite;
+}
+
+.options {
+  padding-top: 15px;
+  margin: auto;
+  font-size: 13px;
+}
+
+p {
+  font-size: 12px;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+}
